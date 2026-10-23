@@ -10,3 +10,6 @@
 .hero-cream .hero-portrait>img{position:relative;inset:auto;display:block;width:100%;height:auto;object-fit:contain;object-position:center}
 .hero-cream .hero-quote{position:relative;right:auto;bottom:auto;left:auto;text-align:left;padding:14px 20px}
 @media(max-width:700px){.hero-cream .hero-portrait{min-height:0}.hero-cream .hero-portrait>img{height:auto;object-fit:contain}}
+
+/* Keep service descriptions readable on white cards inside dark sections. */
+.section.dark .service-card p{color:#46566b}
